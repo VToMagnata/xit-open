@@ -11,6 +11,9 @@ if (button) {
 
     if (email == "123" && senha == "123"){
       window.location.href = "menu.html"
+      document.getElementById("erroLogin").style.display = "none" 
+    } else{
+      document.getElementById("erroLogin").style.display = "block" 
     }
   });
 }
@@ -27,8 +30,10 @@ if(olho){
   const input = document.getElementById('senha')
   if(input.type == "password"){
     input.type = "text"
+    olho.src = 'imagens/olho.png'
   } else if (input.type == "text"){
     input.type = "password"
+    olho.src = 'imagens/olhos-cruzados.png'
   }
   })
 }

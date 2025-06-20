@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  height: 100vh;
+  background-color: #141414;
+  flex-direction: column;
+  overflow: hidden;
+}
+nav{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  gap: 40px;
+}
+#skinBTN{
+  width: 120px;
+  height: 80px;
+  background-color: 	#1f1f1f;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-image: url(imagens/Made\ with\ insMind-a-Photoroom.png);
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: center;
+}
+#logo{
+  height: 120px;
+  width: 110px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+#configBTN{
+  width: 120px;
+  height: 80px;
+  background-color: 	#1f1f1f;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-image: url(imagens/controles-deslizantes-de-configuracoes.png);
+  background-repeat: no-repeat;
+  background-size: 56px 56px;
+  background-position: center;
+}
+#contaConfigBTN{
+  width: 120px;
+  height: 80px;
+  background-color: 	#1f1f1f;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-image: url(imagens/do-utilizador\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 56px 56px;
+  background-position: center;
+}
+#skinChanger{
+  width: 100%;
+  height: 73vh;
+  border: 2px solid white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  grid-template-rows: 100px 200px; /* 2 linhas, a primeira 100px, a segunda 200px */
+}
+main{
+  padding: 20px;
+  padding-bottom: 20px;
+}
+#configHack{
+  display: none;
+}
+#configConta{
+  display: none;
+}
+#karambit{
+  height: 100px;
+  width: 100px;
+  background-image: url(imagens/Made\ with\ insMind-karambit.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#lateralEsquerda{
+  position: relative;
+  flex-direction: column;
+  width: 200px;
+  height: 76vh;
+  border: solid white;
+}
+#adicionarPreset{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  left: 20px;
+  top: 20px;
+}

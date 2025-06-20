@@ -133,6 +133,14 @@ input::placeholder {
 #olho{
   position: absolute;
   height: 18px;
-  right: 300px;
-  bottom: 250px;
+  right: 20px;
+  top: 50%;
+  cursor: pointer;
+}
+#erroLogin{
+  display: none;
+  color: red;
+  position: absolute;
+  bottom: 30px;
+  font-size: 11px;
 }
