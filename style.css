@@ -92,14 +92,14 @@ input::placeholder {
 
 /* Icones nos inputs */
 .pessoa {
-  background-image: url(do-utilizador.png);
+  background-image: url(imagens/do-utilizador.png);
   background-repeat: no-repeat;
   background-size: 23px;
   background-position: left 5px bottom 2px;
 }
 
 .cadeado {
-  background-image: url(trancar.png);
+  background-image: url(imagens/trancar.png);
   background-repeat: no-repeat;
   background-size: 23px;
   background-position: left 5px bottom 2px;
