@@ -1,0 +1,138 @@
+/* Adicionando a fonte Designer 2 */
+@font-face {
+  font-family: 'Designer2';
+  src: url('./fonts/Designer 2.ttf') format('truetype');
+}
+
+/* Reset geral */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+  flex-direction: column;
+}
+
+main {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(103, 34, 168);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+  background: blueviolet;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Inputs */
+#email, #senha {
+  border: 0;
+  border-bottom: 2px solid black;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+}
+
+input:hover {
+  transform: scale(1.07);
+  transition: transform 0.3s ease;
+}
+
+input::placeholder {
+  color: #d1b3ff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-family: 'Designer2', sans-serif;
+}
+
+/* Botões container */
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Botão Registrar */
+#reg {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 13px;
+  color: white;
+  font-family: 'Designer2', sans-serif;
+  position: absolute;
+  left: 40px;
+}
+
+/* Botão Entrar */
+#btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Designer2', sans-serif;
+  position: absolute;
+  right: 50px;
+  font-size: 14px;
+}
+
+/* Icones nos inputs */
+.pessoa {
+  background-image: url(do-utilizador.png);
+  background-repeat: no-repeat;
+  background-size: 23px;
+  background-position: left 5px bottom 2px;
+}
+
+.cadeado {
+  background-image: url(trancar.png);
+  background-repeat: no-repeat;
+  background-size: 23px;
+  background-position: left 5px bottom 2px;
+}
+
+/* Personagem */
+.personagem {
+  position: absolute;
+  height: 320px;
+  width: 240px;
+  left: 0;
+}
+
+/* Título */
+.titulo {
+  color: blueviolet;
+  position: absolute;
+  top: 40px;
+}
+
+/* Texto extra (exemplo) */
+#changer {
+  color: white;
+}
+#log{
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  left: 35%;
+}
+#olho{
+  position: absolute;
+  height: 18px;
+  right: 300px;
+  bottom: 250px;
+}
